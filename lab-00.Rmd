@@ -23,8 +23,8 @@ team_data <- tibble(
                       "username 3", "username 4"), 
   colour = c("blue", "blue", "blue", 
              "colour 3", "colour 4"),
-  hobby = c("Hopping", "hobby 1", "hobby 2", 
-            "hobby 3", "hobby 4"),
+  hobby = c("game", "sleep", "idk", 
+            "idk", "idk"),
   favourite_number = c(2, 8, 4, NA, NA)
   )
 
@@ -47,7 +47,7 @@ p1
 ```
 
 
-*Remove this text (including the stars), and add your answer for Exercise 18 here.*
+Shows the difference of favorite number for each member
 
 ### Exercises 19
 
@@ -59,7 +59,8 @@ p1 + labs(x = "Insert text here",
           title = "Insert text here")
 ```
 
-*Remove this text (including the stars), and add your answer for Exercise 19 here.*
+Modify axis, legend, and plot labels
+
 
 ### Exercise 20
 
@@ -69,4 +70,5 @@ p2 <- ggplot(team_data, aes(x = hobby)) +
 p2
 ```
 
-*Remove this text (including the stars) and add your answer for Exercise 20 here.*
+It cannot clearly show the proportion of each person's hobbies, could use pie chart instead of.
+
